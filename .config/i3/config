@@ -8,7 +8,7 @@ font pango:liberation 11
 
 # Start programs
 exec_always --no-startup-id ~/.screenlayout/display-script.sh
-exec_always --no-startup-id feh --bg-scale ~/.display/wallpaper.png
+exec_always --no-startup-id feh --bg-scale ~/.config/wallpaper.png
 exec_always --no-startup-id picom -f
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id setxkbmap -layout us,il -option grp:alt_shift_toggle
